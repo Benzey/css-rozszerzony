@@ -1,0 +1,39 @@
+.kwadrat{
+    width:150px;
+    height:150px;
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.czerwony{
+    background-color: red;
+    transition:width 2s ease-in;
+    -webkit-transition:width 2s ease-in;
+    -moz-transition:width 2s ease-in;
+    -o-transition:width 2s ease-in;
+}
+.czerwony:hover{
+    width:300px;
+}
+
+.niebieski{
+    background-color: blue;
+    transition:height 2s ease-in;
+    -webkit-transition:height 2s ease-in;
+    -moz-transition:height 2s ease-in;
+    -o-transition:height 2s ease-in;
+}
+.niebieski:hover{
+    height:300px;
+}
+.zielony{
+    background-color: green;
+    transition:width 2s ease-in, height 2s ease-in;
+    -webkit-transition:width 2s ease-in, height 2s ease-in;
+    -moz-transition:width 2s ease-in, height 2s ease-in;
+    -o-transition:width 2s ease-in, height 2s ease-in;
+}
+.zielony:hover{
+    width:300px;
+    height: 300px;
+}

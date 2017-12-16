@@ -1,0 +1,12 @@
+img.port{
+    background-image: url(portfolio1.jpg);
+    display:block;
+    -webkit-transition:background-image 3s easy-in 2s;
+    transition: background-image 3s easy-in 2s;
+}
+img.port:hover{
+    background-image: url(2-pozycje-css.png);
+}
+img.port2{
+    background-image: url(2-pozycje-css.png);
+}

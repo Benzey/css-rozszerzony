@@ -1,0 +1,37 @@
+.elementy-blokowe .p1{
+    background-color: aqua;
+}
+.elementy-blokowe .p2{
+    background-color: aquamarine;
+}
+.elementy-liniowe .inline-p1{
+    background-color: orange;
+}
+.elementy-liniowe .inline-p2{
+    background-color: orangered;
+}
+.elementy-liniowe p{
+    display: inline;
+}
+/* lub .elementy-liniowe .inline-p1,
+        .elementy-liniowe .inline-p2 */
+.elementy-inline-block li{
+    display: inline-block;
+    width:100px;
+    height:100px;
+    background-color: limegreen;
+    margin: 10px;
+    border: 2px solid red;
+}
+.element-display-none{
+    display: none;
+}
+.elementy-inline-block li:hover .sp1 {
+    display: none;
+}
+.elementy-inline-block .sp2{
+    display:none;
+}
+.elementy-inline-block li:hover .sp2{
+    display:inline;
+}

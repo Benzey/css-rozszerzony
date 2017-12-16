@@ -1,0 +1,11 @@
+*{
+    color:white;
+}
+#tlo-obrazek{
+    background-color: beige;
+    background-image: url(http://transpomoc.pl/images/avatars/208846255059e51226478af.jpg);
+    background-repeat: repeat-x;
+    background-position:top center;
+    background-size:30% 30%;
+    background-attachment: fixed;
+}

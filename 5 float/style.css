@@ -1,0 +1,15 @@
+img{
+    margin-right:10px;
+    float:left; 
+    margin-bottom: 10px;
+}
+.port2{
+    margin-right:10px;
+    float:right; 
+    margin-bottom: 10px;
+}
+p:last-child{
+    background-color: aqua;
+    clear: both;
+}
+
