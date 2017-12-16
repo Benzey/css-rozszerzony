@@ -10,3 +10,9 @@ div[detaliczny^="moze"]{
 div[detaliczny$="fak"]{
     color:orange;
 }
+.pass{
+    height:30px;
+}
+.pass[typ="tajne"]{
+    height: 40px;
+}
